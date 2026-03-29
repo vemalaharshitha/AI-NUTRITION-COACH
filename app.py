@@ -7,7 +7,7 @@ import requests
 
 # ================= MODE SWITCH =================
 USE_API = False  # keeps project SAFE while API code is visible
-API_KEY = "AIzaSyC5R8lWGm26QmAVj6ckFJzRKQOJUykrWwQ"
+API_KEY = "paste_your_api_key"
 MODEL = "gemini-2.0-flash"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 
